@@ -9,7 +9,8 @@ import './assets/main.css'
 const app = createApp(App)
 const pinia = createPinia()
 
-//for persistant values -> plugin 
+//plugin handles this easier and better: pinia-plugin-persistedstate
+//for persistant values 
 pinia.use((context) => {
     //console.log(context);
 
