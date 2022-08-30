@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>About</h1>
-    <button class="counter-button" @mouseenter="storeCounter.increaseCount">
+    <button class="counter-button" @click="storeCounter.increaseCount">
       {{storeCounter.count }}
     </button>
   </div>
